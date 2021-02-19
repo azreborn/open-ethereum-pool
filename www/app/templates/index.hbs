@@ -41,7 +41,14 @@
   <div>
     <hr/>
     <h3 class="note note-info text-center">
+      <strong>Windows:</strong>
       ethminer.exe -P stratum://&lt;address&gt;.&lt;worker&gt;@{{config.AppHost}}
+      <strong>More stable</strong>
+      <br />
+      <strong>Linux:</strong>
+      ./ethminer -P stratum://&lt;address&gt;.&lt;worker&gt;@{{config.AppHost}}
+      <strong>More stable</strong>
+      while true; do ./ethminer -P stratum://&lt;address&gt;.&lt;worker&gt;@{{config.AppHost}}; sleep 10; done
     </h3>
   </div>
 </div>
