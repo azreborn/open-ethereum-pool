@@ -15,7 +15,7 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: 'https://cethpool.com/',
+      ApiUrl: 'http://cethpool.com/',
 
       // APP host
       AppHost: 'cethpool.com:8008',
@@ -29,7 +29,7 @@ module.exports = function(environment) {
       StratumPort: 8008,
 
       // Fee and payout details
-      PoolFee: '5%',
+      PoolFee: '0%',
       PayoutThreshold: '1 cTH',
 
       // For network hashrate (change for your favourite fork)
