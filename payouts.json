@@ -16,7 +16,7 @@
 		"daemon": "http://127.0.0.1:8545",
 		"timeout": "10s",
 		"address": "0x1245075DB252318a8ba6144894549822051f0646",
-		"gas": "21000",
+		"gas": "1",
 		"gasPrice": "50000000000",
 		"autoGas": true,
 		"threshold": 500000000,
