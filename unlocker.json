@@ -1,0 +1,24 @@
+{
+	"coin": "eth",
+	"name": "main",
+
+	"redis": {
+		"endpoint": "127.0.0.1:6379",
+		"poolSize": 10,
+		"database": 0,
+		"password": ""
+	},
+
+	"unlocker": {
+		"enabled": true,
+    "poolFee": 0.0,
+    "poolFeeAddress": "0x1245075DB252318a8ba6144894549822051f0646",
+    "donate": true,
+    "depth": 120,
+    "immatureDepth": 20,
+    "interval": "10m",
+    "daemon": "http://127.0.0.1:8545",
+    "keepTxFees": false,
+    "timeout": "10s"
+	}
+}
